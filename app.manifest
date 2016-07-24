@@ -1,0 +1,37 @@
+{
+  "id":          "sdk.user.reacttest",
+  "name":        "reacttest",
+  "css":         [
+    "appStylesheet.css"
+  ],
+  "controller":  "appController.js",
+  "view":        "appView.js",
+  "template":    "appLayout.html",
+  "permissions": [],
+  "screens":     [
+    {
+      "id":       "screen1",
+      "chambers": [
+        {
+          "id":      "chamber1",
+          "js":      "chamber1.js",
+          "autorun": true,
+          "focus":   true
+        }
+      ]
+    },
+    {
+      "id":       "screen2",
+      "chambers": [
+        {
+          "id":      "chamber2",
+          "js":      "chamber2.js",
+          "autorun": true
+        }
+      ]
+    }
+  ],
+  "categoryId":  "WORKSPACE",
+  "date":        "2016-07-18",
+  "version":     "1.0.0"
+}
