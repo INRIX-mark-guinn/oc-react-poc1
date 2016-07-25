@@ -1,3 +1,13 @@
+// This is an OC control that manages it's rendering with React. You instantiate
+// it by passing the React component (again the class or function not an instance)
+// to the constructor or the static `wrap` method.
+//
+// This API could go towards something like ReactChamber, but the goal here is
+// that components which use React for state could entirely define themselves
+// in React so those components standalone and apps that also use React could
+// skip the OC control layer. That may not be possible in the end and we'd need
+// to think carefully about things like focus, but if it is, it could save us
+// a lot of class loading.
 define(function(require) {
     const 
         Control = require('common/ui/Control'),

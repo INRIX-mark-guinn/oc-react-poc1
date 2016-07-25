@@ -1,3 +1,5 @@
+// This is a chamber that is powered by react.
+// You just extend it and override the renderContent method
 define(function(require) {
     const
         React = require('react'),

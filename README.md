@@ -26,6 +26,11 @@ via React.
 
 ## TODO
 
+- Think through how this affects focus very carefully
+- Think through how profiles will do overrides (I think it should be
+  very simple to just use the RequireJS overrides they're currently
+  using to override classes) since the current system of templates will
+  not be available
 - Loading and parsing JSX is not production ready.
     - We need to come up with a solid way to do this in both production
       and development
@@ -43,4 +48,4 @@ via React.
     - explore a scenario where chambers are managed entirely by the 
       parent view (i.e. the state of which one is visible is controlled
       by the props of the parent view)
-            
+

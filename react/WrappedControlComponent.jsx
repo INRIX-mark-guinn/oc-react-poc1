@@ -1,3 +1,5 @@
+// This is a React component that wraps any OC control. You just pass it a
+// prop with the Control CLASS (i.e. not an instance)
 define(function(require) {
     const
         React = require('react'),

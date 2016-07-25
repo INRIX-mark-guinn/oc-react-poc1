@@ -1,6 +1,6 @@
+// This is a React component with a similar interface to the OC Button control
 define(require => {
-    var React = require('react'),
-        ReactControl = require('jsx!$MODULE_PATH/ReactControl');
+    var React = require('react');
 
     return function (props) {
         return (

@@ -3,7 +3,7 @@ define(require => {
         Button = require('common/ui/Button'),
         TextView = require('common/ui/TextView'),
         Pane = require('common/ui/Pane'),
-        ReactButton = require('jsx!$MODULE_PATH/ReactButton-wrapped');
+        ReactButton = require('jsx!$MODULE_PATH/oc/ReactButton-wrapped');
 
     return class extends Chamber {
         beforeStart () {

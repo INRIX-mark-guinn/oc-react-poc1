@@ -1,10 +1,10 @@
 define(require => {
     const React = require('react');
-    const ReactChamber = require('jsx!$MODULE_PATH/ReactChamber'),
+    const ReactChamber = require('jsx!$MODULE_PATH/react/ReactChamber'),
         Button = require('common/ui/Button'),
 
-        ReactButton = require('jsx!$MODULE_PATH/ReactButton'),
-        WrappedButton = require('jsx!$MODULE_PATH/WrappedButton');
+        ReactButton = require('jsx!$MODULE_PATH/react/ReactButton'),
+        WrappedButton = require('jsx!$MODULE_PATH/react/Button-wrapped');
 
     return class extends ReactChamber {
         // this liitle exercise just proves we can handle model changes
